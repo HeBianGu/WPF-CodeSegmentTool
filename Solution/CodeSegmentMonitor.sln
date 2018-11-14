@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{F33B4709-5AA9-4B55-9044-4C3A3D593E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSegmentMonitorApp", "..\Source\Application\CodeSegmentMonitorApp\CodeSegmentMonitorApp.csproj", "{0A13EDEB-44B8-44DB-BBD6-2072C6DCF21D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SetUp", "SetUp", "{F9A5B91C-5603-4DED-8AF5-0D08AC7CD91F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CodeSegmentMonitorAppSetUp", "..\SetUp\CodeSegmentMonitorAppSetUp\CodeSegmentMonitorAppSetUp.vdproj", "{69DADB5B-B35B-408F-8AAA-6EB5ED8EB612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A13EDEB-44B8-44DB-BBD6-2072C6DCF21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A13EDEB-44B8-44DB-BBD6-2072C6DCF21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A13EDEB-44B8-44DB-BBD6-2072C6DCF21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A13EDEB-44B8-44DB-BBD6-2072C6DCF21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DADB5B-B35B-408F-8AAA-6EB5ED8EB612}.Debug|Any CPU.ActiveCfg = Debug
+		{69DADB5B-B35B-408F-8AAA-6EB5ED8EB612}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A13EDEB-44B8-44DB-BBD6-2072C6DCF21D} = {F33B4709-5AA9-4B55-9044-4C3A3D593E7C}
+		{69DADB5B-B35B-408F-8AAA-6EB5ED8EB612} = {F9A5B91C-5603-4DED-8AF5-0D08AC7CD91F}
+	EndGlobalSection
+EndGlobal
