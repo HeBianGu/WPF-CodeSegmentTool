@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>{0}</Title>
+			<Shortcut>{1}</Shortcut>
+			<Description>{2}</Description>
+			<Author>{3}</Author>
+			<SnippetTypes>
+				<SnippetType>{4}</SnippetType>
+			</SnippetTypes>
+		</Header>
+{5}
+	</CodeSnippet>
+</CodeSnippets>
